@@ -1,0 +1,36 @@
+The difference between the document object and window object 
+
+Window Object : 
+
+       Window is the first thing that gets loaded into the browser.The Window Object is displays only the Window, which means without any Icon or Url or cookies and Inside the window
+       object only the Document Object Displays.This window object has the majority of the properties like length, innerWidth, innerHeight, name etc.if you want to access a property
+       for the window it is window.property.
+       
+       There are several Window Objects, They are : 
+      
+       It is not Mandatory to write (window.) before every of the Window Objects.
+
+       alert() - displays the alert box containing message with ok button.
+       confirm() - displays the confirm dialog box containing message with ok and cancel button.
+       prompt() - displays a dialog box to get input from the user.
+       open() - opens the new window.
+       close() - closes the current window.
+       setTimeout() - performs action after specified time like calling function.
+
+
+Document Object :
+
+       The document object is your html or other document that will be loaded into the browser..The document actually gets loaded inside the window object and has properties available to
+       it like title, URL, cookie, etc which means the Document Object has the properties which are only displays inot the Window Object.if you want to access a property for the Document
+       it is window.document.property which is also available in short as document.property.
+
+       There are several Document Objects, They are : 
+      
+       It is not Mandatory to write (window.document.) before every of the Document Objects.
+
+       write("string") - writes the given string on the doucment.
+       writeln("string") - writes the given string on the doucment at next line by line.
+       getElementById() - returns the element having the given id value in HTML.
+       getElementsByName() - returns all the elements having the given name value.
+       getElementsByTagName() - returns all the elements having the given tag name in HTML.
+       getElementsByClassName() - returns all the elements having the given class name in HTML.
